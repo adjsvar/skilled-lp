@@ -1,0 +1,19 @@
+@use 'var';
+
+footer {
+    background-color: var.$dark-purple;
+    nav {       
+        display: flex;       
+        padding: 2.25rem 1rem;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            max-width: 5.563rem;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }        
+    }
+}

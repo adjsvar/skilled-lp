@@ -1,0 +1,20 @@
+@use 'var';
+
+
+header {
+    
+    nav {       
+        display: flex;       
+        margin: 1rem;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            max-width: 5.563rem;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }        
+    }
+}
