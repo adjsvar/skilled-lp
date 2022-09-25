@@ -1,9 +1,36 @@
-@media (min-width:768px) {       
+@media (min-width:48rem) {
+       
+    main {        
+        
+        .cta-heading {
+            margin: 3.12rem 0 0 0;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;          
+            .cta-description {  
+                flex-grow: 1;              
+                min-width: 25rem;
+                margin-bottom: 11.625rem;
+            }
+
+            .cta-image {
+                min-width: 300px;
+                flex-grow: 1;
+                img {
+                    z-index: -5;
+                    max-width: 40rem;
+                    position: absolute;
+                    top: -95px;
+                    right: -260px;
+                }
+            }
+        }
+    }
 
     .pop_courses {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        column-gap: 0.75rem;
+        column-gap: 3vw;
         row-gap: 3.75rem;
 
         .pop_heading {
@@ -38,7 +65,36 @@
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:80rem) { 
+    
+    main {    
+        
+        .cta-heading {  
+            margin-top: 186px;                
+            .cta-description {  
+                flex-grow: 1;              
+                min-width: 25rem;
+                margin-bottom: 226px;
+            }
+
+            .cta-image {
+                min-width: 300px;
+                flex-grow: 1;
+                overflow: hidden;
+                img {
+                    z-index: -5;
+                    max-width: 990px;
+                    position: absolute;
+                    top: -20%;
+                    right: -15%;
+                }
+            }
+        }
+    }
+
+
+
+
     .pop_courses {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;

@@ -23,9 +23,10 @@ main {
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
+    width: 85vw;
+    max-width: 70rem;
 
-    .cta-heading {
-        margin: 0 1rem;  
+    .cta-heading { 
         display: flex;
         flex-direction: column;
         .cta-description {
@@ -50,6 +51,7 @@ main {
             img {
                 display: block;
                 width: 100%;
+                
             }
         }
         
@@ -58,7 +60,6 @@ main {
 
 
 .pop_courses {
-    margin: 0 1rem;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(6, auto);

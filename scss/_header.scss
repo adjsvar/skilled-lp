@@ -2,10 +2,11 @@
 
 
 header {
-    
+    width: 85vw;
+    max-width: 70rem;
     nav {       
         display: flex;       
-        margin: 1rem;
+        margin: 1rem 0;
         justify-content: space-between;
         align-items: center;
 
